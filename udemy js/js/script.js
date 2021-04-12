@@ -11,7 +11,10 @@ let personakMovieDB={
     privat:false
 };
 
-let lastOfFilms=prompt('Один из последних просмотренных фильмов?', '');
-let rateOfTHeFilm=prompt('На сколько оцените его?', '');
+let a=prompt('Один из последних просмотренных фильмов?', '');
+let b=prompt('На сколько оцените его?', '');
+let c=prompt('Один из последних просмотренных фильмов?', '');
+let d=prompt('На сколько оцените его?', ''); 
 
-personakMovieDB.movies[lastOfFilms] = rateOfTHeFilm;
+personakMovieDB.movies[a] = b;
+personakMovieDB.movies[c] = d;
